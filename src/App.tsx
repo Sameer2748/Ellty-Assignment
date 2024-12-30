@@ -12,39 +12,7 @@ const App = () => {
         { title: "Deployed to vercel", isChecked: false },
       ],
       isChecked: true,
-    },
-    // {
-    //   title:"Task 2",
-    //   Todos:[
-    //     {title:"List Created", isChecked:false},
-    //     {title:"Addded Styling", isChecked:false},
-    //     {title:"Pushed to github", isChecked:false},
-    //     {title:"Deployed to vercel", isChecked:false},
-    //   ],
-    //   isChecked: true
-
-    // },
-    // {
-    //   title:"Task 3",
-    //   Todos:[
-    //     {title:"List Created", isChecked:false},
-    //     {title:"Addded Styling", isChecked:false},
-    //     {title:"Pushed to github", isChecked:false},
-    //     {title:"Deployed to vercel", isChecked:false},
-    //   ],
-    //   isChecked: true
-
-    // },
-    // {
-    //   title:"Task 4",
-    //   Todos:[
-    //     {title:"List Created", isChecked:false},
-    //     {title:"Addded Styling", isChecked:false},
-    //     {title:"Pushed to github", isChecked:false},
-    //     {title:"Deployed to vercel", isChecked:false},
-    //   ],
-    //   isChecked: true
-    // },
+    }
   ]);
 
   const handlePageCheck = (id: number) => {
