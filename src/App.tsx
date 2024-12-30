@@ -6,12 +6,12 @@ const App = () => {
       id: 0,
       title: "Task 1",
       Todos: [
-        { title: "List Created", isChecked: true },
+        { title: "List Created", isChecked: false },
         { title: "Addded Styling", isChecked: false },
         { title: "Pushed to github", isChecked: false },
         { title: "Deployed to vercel", isChecked: false },
       ],
-      isChecked: true,
+      isChecked: false,
     }
   ]);
 
