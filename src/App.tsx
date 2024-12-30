@@ -77,7 +77,7 @@ const App = () => {
                 >
                     <input
                       type="checkbox"
-                      className="peer appearance-none h-6 w-6 w-[20px] border-2 border-gray-300 rounded-md checked:bg-blue-600 checked:border-none  focus:outline-none"
+                      className="peer appearance-none h-6 w-6  border-2 border-gray-300 rounded-md checked:bg-blue-600 checked:border-none  focus:outline-none"
                       checked={todo.isChecked}
                       readOnly
                       onClick={() => handleTodoCheck(page.id, index)}
